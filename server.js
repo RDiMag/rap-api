@@ -11,19 +11,17 @@ const rappers = {
     'birthName': 'Shéyaa Bin Abraham-Joseph',
     'birthLocation': 'London, England'
   },
-  'Chance the Rapper': {
+  'Chance the Rapper':{
     'age': 29,
     'birthName': 'Chancellor Bennett',
     'birthLocation': 'Chicago, Illinois'
   },
-  'dylan': {
+  'dylan':{
     'age': 29,
     'birthName': 'Dylan',
     'birthLocation': 'Dylan'
   },
 }
-
- 
 
 app.get('/', (request, response)=>{
   response.sendFile(__dirname + '/index.html')
